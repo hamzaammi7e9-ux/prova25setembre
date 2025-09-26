@@ -9,5 +9,6 @@ fun main() {
     // Calculem el àrea de la pizza a partir de la formula "π*r²"
     val superficiePizza : Float = ((radiPizza*radiPizza)*Math.PI).toFloat()
     // Mostrem el resultat de la superfície calculada a la pantalla
-    print("La superfície de la pizza son $superficiePizza m²")
+    val superficiearrodonidaPizza = String.format("%.2f", superficiePizza)
+    print("La superfície de la pizza son $superficiearrodonidaPizza m²")
 }
